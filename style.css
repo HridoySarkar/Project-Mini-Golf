@@ -350,7 +350,7 @@ section::after{
 footer{
     margin-top: 180px;
     background-color: #068b78;
-    padding: 100px;
+    padding: 100px 100px 40px;
 }
 .footer_container{}
 .footer_row{
