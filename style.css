@@ -204,8 +204,8 @@ article::after{
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 1px 2px 5px 2px rgb(6 139 120/ 10%);}
-.review_col h3{}
-.review_col p{}
+.review_col h3{margin: 10px 0;color: #068B78;}
+.review_col p{color: #4F4F4F;font-size: 15px;padding: 0 5px;font-weight: 300;}
 .review_col_1{
     
 }
