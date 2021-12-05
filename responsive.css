@@ -105,3 +105,76 @@
     }
 
 }
+
+@media screen and (max-width:320px){
+    body{
+        width: 315px;
+    }
+    .nav_bar{
+        display: inline-flex;
+        justify-content: center;
+        
+    }
+    .nav_bar ul li a{
+        flex-direction: row;
+    }
+    .header_row{
+        width: 360px;
+        padding: 10px 20px;
+    }
+    .left_header_row_col{
+        display: block;
+        flex-wrap: wrap;
+        padding: 10px 2%;
+    }
+
+    .article_content h1{
+        font-size: 22px;
+    }
+    .article_content p{
+        font-size: 14px;
+    }
+    .article_col_left{
+        padding: 25px 5px;
+    }
+    .review_col{
+        padding:0 30px;
+    }
+    .review_col_3{
+        padding: 10px 0;
+    }
+
+    .event_row{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+
+    .event_content h1{
+        font-size: 22px;
+    }
+    .event_content p{
+        font-size: 14px;
+    }
+
+
+
+    .footer_row{
+        flex-direction: column;
+    }
+    .footer_left_col h1{
+        font-size: 18px;
+    }
+    .footer_left_col p{
+        font-size: 14px;
+    }
+    form label{
+        font-size: 16px;
+    }
+    .under_line{
+        font-size: 14px;
+    }
+    form button{
+        font-size: 16px;
+    }
+}
