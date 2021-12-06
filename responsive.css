@@ -247,6 +247,9 @@
     footer{
         padding: 40px;
     }
+    section::before {
+        transform: translateY(21%) !important;
+    }
     
 
 }
