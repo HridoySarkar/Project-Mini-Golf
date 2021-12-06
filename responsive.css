@@ -37,7 +37,7 @@
         width: 100%;
     }
     .img_container::after{
-        transform: translate(-62%, -85%);
+        transform: translate(-6%, -87%);
         overflow: hidden;
 }
 
@@ -59,7 +59,7 @@
         flex-direction: column;
     }
     .article_content{
-        padding: 80px 0;
+        padding: 25px 0;
     }
     .article_col_left{
         position: relative;
@@ -81,19 +81,14 @@
     }
     .head_container p{
         text-align: center;
+        font-size: 14px;
     }
     .right_header_row_col button{
         margin: auto;
     }
     .img_container{
-        margin: auto;
-        display: block;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        max-width: 500px;
-        margin-left: auto;
         padding-top: 40px;
+        padding-bottom: 20px;
     }
     .img_container img{
         width: 100%;
@@ -106,15 +101,22 @@
 
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     body{
-        width: 315px;
+        width: 360px;
     }
     .nav_bar{
         display: inline-flex;
         justify-content: center;
         
     }
+    .img_container{}
+    .img_container img{
+        max-width: 250px;
+    }
+    .right_header_row_col{
+    padding: 36px 20px 36px;
+}
     .nav_bar ul li a{
         flex-direction: row;
     }
@@ -139,6 +141,7 @@
     }
     .review_col{
         padding:0 30px;
+        padding-top: 20px;
     }
     .review_col_3{
         padding: 10px 0;
@@ -157,13 +160,15 @@
         font-size: 14px;
     }
 
-
+    .event_img_2{
+    padding-bottom: 40px;
+}
 
     .footer_row{
         flex-direction: column;
     }
     .footer_left_col h1{
-        font-size: 18px;
+        font-size: 16px;
     }
     .footer_left_col p{
         font-size: 14px;
@@ -172,9 +177,37 @@
         font-size: 16px;
     }
     .under_line{
-        font-size: 14px;
+        font-size: 10px;
     }
     form button{
-        font-size: 16px;
+        font-size: 14px;
     }
+    .event_content{
+    padding-bottom: 45px;
+}
+    .head_container h1{ 
+    font-size: 25px;
+}
+    .btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    }
+    .nav_bar{
+
+    }
+    article::before {
+        content: url(./img/Group4.png);
+        position: absolute;
+        transform: translateY(0%);
+        z-index: -1;
+    }
+    footer{
+    margin-top: 15px;
+    }
+
+    .right_header_row_col img{
+        width: 100%;
+    }
+    
+
 }
