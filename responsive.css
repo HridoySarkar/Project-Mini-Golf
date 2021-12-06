@@ -59,7 +59,7 @@
         flex-direction: column;
     }
     .article_content{
-        padding: 25px 0;
+        padding: 40px 0 25px;
     }
     .article_col_left{
         position: relative;
@@ -178,7 +178,9 @@
         font-size: 16px;
     }
     .under_line{
-        font-size: 5px;
+        margin: 22px;
+        padding: 20px 10px 0;
+        font-size: 6px;
     }
     form button{
         font-size: 14px;
@@ -221,7 +223,7 @@
         min-width: 220px;
     }
     section {
-        margin-top: 80px;
+        margin-top: 50px;
         padding: 0 60px;
         position: relative;
     }
@@ -240,6 +242,10 @@
     }
     .head_container{
         padding-bottom: 25px;
+    }
+
+    footer{
+        padding: 40px;
     }
     
 
