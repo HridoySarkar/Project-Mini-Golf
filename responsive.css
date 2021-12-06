@@ -101,7 +101,7 @@
 
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
     body{
         width: 360px;
     }
@@ -140,11 +140,12 @@
         padding: 25px 5px;
     }
     .review_col{
-        padding:0 30px;
+        padding: 0 5px;
         padding-top: 20px;
     }
     .review_col_3{
-        padding: 10px 0;
+        padding: 10px 5px;
+        margin: 10px 0;
     }
 
     .event_row{
@@ -161,14 +162,14 @@
     }
 
     .event_img_2{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
     .footer_row{
         flex-direction: column;
     }
     .footer_left_col h1{
-        font-size: 16px;
+        font-size: 15px;
     }
     .footer_left_col p{
         font-size: 14px;
@@ -177,13 +178,13 @@
         font-size: 16px;
     }
     .under_line{
-        font-size: 10px;
+        font-size: 5px;
     }
     form button{
         font-size: 14px;
     }
     .event_content{
-    padding-bottom: 45px;
+    padding-bottom: 50px;
 }
     .head_container h1{ 
     font-size: 25px;
@@ -207,6 +208,38 @@
 
     .right_header_row_col img{
         width: 100%;
+    }
+
+    .img_container img {
+        width: 56%;
+        object-fit: cover;
+        object-position: center;
+        height: 277px;
+        max-width: 227px;
+        margin-left: auto;
+        margin: 20px 20px;
+        min-width: 220px;
+    }
+    section {
+        margin-top: 80px;
+        padding: 0 60px;
+        position: relative;
+    }
+    .footer_logo h2{
+        font-size: 18px;
+    }
+
+    .review_col h3{
+
+    font-size: 16px;
+
+}
+    .review_col p{
+        
+    font-size: 12px;
+    }
+    .head_container{
+        padding-bottom: 25px;
     }
     
 
