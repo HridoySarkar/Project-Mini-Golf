@@ -201,7 +201,7 @@
     article::before {
         content: url(./img/Group4.png);
         position: absolute;
-        transform: translateY(600%);
+        transform: translateY(370%);
         z-index: -1;
     }
     footer{
